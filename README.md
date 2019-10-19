@@ -10,6 +10,8 @@ The data used in this project was lost, as initially I did not have the intentio
 
 ### Findings
 
+My main model is return=BETA0+BETAmba+BETAsat+BETAtenure+BETAage+u.
+
 Having an MBA was found to have a coefficient of ~0.674, meaning that having an MBA vs. not having an MBA increased returns by .674 units. The p-value was found to be 0.073, meaning that we fail to reject the null hypothesis that BETAmba=0 at the 5% significance level. 
 
 Age was found to have a coefficient of aprox. -0.1405, indicating a negative relationship between age and returns, which is unexpected as one would expect age and experience are correlated. With a p-value of 0.001, we reject the null hypothesis that BETAage=0 at the 5% significance level. 

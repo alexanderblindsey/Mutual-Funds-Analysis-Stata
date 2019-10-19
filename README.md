@@ -10,7 +10,7 @@ The data used in this project was lost as initially I did not have the intention
 
 ### Findings
 
-My main model is return=BETA0+BETAmba+BETAsat+BETAtenure+BETAage+u.
+My primary multiple linear regression model is return=BETA0+BETAmba+BETAsat+BETAtenure+BETAage+u.
 
 SAT scores, sat, were found to have a coefficient, or BETA, of ~0.005, meaning that a one unit *ceteris parabus* increase in SAT scores would increase returns by ~0.005 units. The p-value is ~0.00 meaning we reject the null hypothesis that BETAsat=0 at any standard significance level used in the social sciences, typically 0.10, 0.05, and 0.01. The ln of SAT, lnsat, was found to have a coefficient of ~5.84 and a p-value of 0.00, again siginifant at any significance level. This means a 1% increase in SAT scores increases returns by 0.0584 units.
 

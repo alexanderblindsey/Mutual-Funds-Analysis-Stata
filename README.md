@@ -12,13 +12,13 @@ The data used in this project was lost, as initially I did not have the intentio
 
 My main model is return=BETA0+BETAmba+BETAsat+BETAtenure+BETAage+u.
 
+SAT scores, sat, were found to have a coefficient, or BETA, of ~0.005, meaning that a one unit *ceteris parabus* increase in SAT scores would increase returns by ~0.005 units. The p-value is ~0.00 meaning we reject the null hypothesis that BETAsat=0 at any standard significance level used in the social sciences, typically 0.10, 0.05, and 0.01. The ln of SAT, lnsat, was found to have a coefficient of ~5.84 and a p-value of 0.00, again siginifant at any significance level. This means a 1% increase in SAT scores increases returns by 0.0584 units.
+
 Having an MBA was found to have a coefficient of ~0.674, meaning that having an MBA vs. not having an MBA increased returns by .674 units. The p-value was found to be 0.073, meaning that we fail to reject the null hypothesis that BETAmba=0 at the 5% significance level. 
 
 Age was found to have a coefficient of aprox. -0.1405, indicating a negative relationship between age and returns, which is unexpected as one would expect age and experience are correlated. With a p-value of 0.001, we reject the null hypothesis that BETAage=0 at the 5% significance level. 
 
-Tenure was found to have a coefficient of ~0.082, indicating that a one unit increase in tenure would increase average returns by 0.082. With a very high p-value of .641, we fail to reject the null hypothesis that BETAtenure=0 at a 5% significance level as .641 > 0.05. 
-
-SAT scores, sat, were found to have a coefficient, or BETA, of ~0.005, meaning that a one unit *ceteris parabus* increase in SAT scores would increase returns by ~0.005 units. The p-value is ~0.00 meaning we reject the null hypothesis that BETAsat=0 at any standard significance level used in the social sciences, typically 0.10, 0.05, and 0.01. The ln of SAT, lnsat, was found to have a coefficient of ~5.84 and a p-value of 0.00, again siginifant at any significance level. This means a 1% increase in SAT scores increases returns by 0.0584 units.  
+Tenure was found to have a coefficient of ~0.082, indicating that a one unit increase in tenure would increase average returns by 0.082. With a very high p-value of .641, we fail to reject the null hypothesis that BETAtenure=0 at a 5% significance level as .641 > 0.05.   
 
 Because the coefficients of two variables cannot be ruled out as being equal to 0, I drop these variables from the model. Both models were then assesed with an F-test and by comparing the R-squared to see the effect of dropping these variables. 
 

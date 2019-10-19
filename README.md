@@ -6,3 +6,5 @@ In this project, I analyze the causal effect of portfolio manager's education, a
 
 I include a list of tables and graphs containing summary statistics for all independent variables, the data's kernel density overlaid on a Normal Distribution, and scatter plots of each independent variable on returns. 
 
+
+The data used in this project was lost, as initially I did not have the intention of posting it on GitHub. A printout of the Stata log file containing all the code is included at the end of the report. The raw log file has also been lost.  

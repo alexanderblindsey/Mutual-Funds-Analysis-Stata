@@ -20,6 +20,8 @@ Age was found to have a coefficient of aprox. -0.1405, indicating a negative rel
 
 Tenure was found to have a coefficient of ~0.082, indicating that a one unit increase in tenure would increase average returns by 0.082. With a very high p-value of .641, we fail to reject the null hypothesis that BETAtenure=0 at a 5% significance level as .641 > 0.05.   
 
+The insignificance of tenure and the negative value of BETAage possibly suggest that a better variable measuring 'experience' is required. 
+
 Because the coefficients of two variables cannot be ruled out as being equal to 0, I drop these variables from the model. Both models were then assesed with an F-test and by comparing the R-squared to see the effect of dropping these variables. 
 
 

@@ -1,4 +1,4 @@
-# Mutual Funds Analysis using Stata
+# Mutual Funds Analysis
 
 ### The Project
 This project was submitted as an assignment for an upper-level econometrics class at the University of British Columbia. The assignment received an A+.

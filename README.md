@@ -1,4 +1,4 @@
-# What should you look for in a portfolio manager?s
+# What should you look for in a portfolio manager?
 
 ### The Project
 This project was submitted as an assignment for an upper-level econometrics class at the University of British Columbia. The assignment received an A+.

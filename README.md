@@ -12,7 +12,9 @@ The data used in this project was lost as initially I did not have the intention
 
 My primary multiple linear regression model is return=BETA0+BETAmba+BETAsat+BETAtenure+BETAage+u.
 
-The constant B0 measures expected return when the value of all other variables is 0. This is irrelevant in our data as it is impossible to have 0 age and 0 sat.
+The constant B0 measures expected return when the value of all other variables is 0. This is irrelevant in our data as it is impossible to have age=0 and sat=0.
+
+$$/mu$$
 
 SAT scores, sat, were found to have a coefficient, or <img src="https://render.githubusercontent.com/render/math?math=\beta">, of ~0.005, meaning that a one unit *ceteris parabus* increase in SAT scores would increase returns by ~0.005 units. The p-value is ~0.00 meaning we reject the null hypothesis that BETAsat=0 at any standard significance level used in the social sciences, typically 0.10, 0.05, and 0.01. The ln of SAT, lnsat, was found to have a coefficient of ~5.84 and a p-value of 0.00, again siginifant at any significance level. This means a 1% increase in SAT scores increases returns by 0.0584 units.
 

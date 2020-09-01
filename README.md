@@ -10,7 +10,7 @@ The data used in this project was lost as initially I did not have the intention
 
 ### Findings
 
-My primary multiple linear regression model is <img src="https://render.githubusercontent.com/render/math?math=\beta_0 + \beta_{mba} + \beta_{sat} + \beta_{tenure} + \beta_{age} + \mu">
+My primary multiple linear regression model is <img src="https://render.githubusercontent.com/render/math?math=\beta_0 + \beta_{mba}+\beta_{sat} + \beta_{tenure} + \beta_{age} + \mu">
 
 return=BETA0+BETAmba+BETAsat+BETAtenure+BETAage+u. 
 
